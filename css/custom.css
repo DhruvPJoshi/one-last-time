@@ -1,0 +1,45 @@
+body {
+    margin:0;
+    font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+/* ---- particles.js container ---- */
+#particles-js {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(80, 190, 255);
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+blockquote {
+    background-color: seashell !important;
+    border-radius: 10px;
+}
+
+.dialogue-left {
+    text-align: left;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 0.25% 1% 0.25% 5% !important;
+    opacity: 0.9 !important;
+}
+
+.dialogue-right {
+    text-align: right;
+    background-color: lightgreen;
+    border-radius: 15px;
+    padding: 0.25% 5% 0.25% 1% !important;
+    opacity: 0.9 !important;
+}
+
+.heart {
+    color: #e74c3c;
+}
